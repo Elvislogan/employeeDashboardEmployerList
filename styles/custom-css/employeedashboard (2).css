@@ -1,0 +1,94 @@
+.panel-remove{
+  border: none;
+}
+
+.panel-text{
+  width: 250px;
+  height: 30px;
+  text-indent: 15px;
+}
+
+.dash-blue{
+  background-color: #021627 !important;
+}
+
+.links{
+  font-size: 1.8rem !important;
+}
+.select{
+  position: relative;
+  float: right;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  text-indent: 15px;
+  font-size: 16px;
+  height: 30px;
+  color: gainsboro;
+}
+
+.select:hover{
+  border: 1px solid #007bff;
+}
+
+.search{
+  font-size: 12px;
+  margin-left: -20px;
+}
+
+.table-font{
+  font-size: 16px;
+}
+
+.panel-body-change{
+  background: lightgray !important;
+  border: none;
+}
+body{
+  background: lightgray !important;
+}
+
+
+/* Breadcrumb */
+.breadcrumb{
+  background:#cccccc;
+  color:#333333;
+}
+
+.breadcrumb a{
+  color:#333333;
+}
+
+/* Progress Bars */
+.progress-bar{
+  background:#333333;
+  color:#ffffff;
+}
+
+.dash-box{
+  text-align:center;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.white{
+  background: none;
+}
+
+
+
+
+@media (max-width: 320px) {
+
+   .select{
+    float: right;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    text-indent: 15px;
+    font-size: 12px;
+    height: 30px;
+    color: gainsboro;
+  }
+  
+}
