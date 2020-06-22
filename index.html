@@ -9,11 +9,12 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./styles/bootstrap-css/bootstrap.min.css">
-    <link href="./styles/custom-css/top-nav-admin.css" rel="stylesheet" />
-		<link href="./styles/custom-css/side-nav.css" rel="stylesheet" />
-		<link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/custom-css/employeedashboard (2).css">
+    <link rel="stylesheet" href="../styles/bootstrap-css/bootstrap.css">
+    <link href="../styles/custom-css/top-nav-admin.css" rel="stylesheet" />
+		<link href="../styles/custom-css/side-nav.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/custom-css/employeedashboard (2).css">
+    <link rel="stylesheet" href="../styles/bootstrap-css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
   </head>
@@ -43,7 +44,7 @@
 						</div>
 	
 						<div class="d-flex align-items-center top__nav__user">
-							<div class="img-fluid mr-2"><img src="./img/Employer Dashboard/user2.png" alt=""></div>
+							<div class="img-fluid mr-2"><img src="../img/Employer Dashboard/user2.png" alt=""></div>
 							<div class="top__nav__user__name">
 								<h6 class="text-primary m-0">Adelanke Adelanke</h6>
 								<p class="m-0 mr-0">Admin</p>
@@ -60,46 +61,45 @@
     <section id="main">
       <div class="container">
         <div class="row" id="row-column">
-          <div class="col-md-2">
+          <div class="col-lg-3 col-md-2">
             
             <div class="sidenav" id="sideNav">
                <div class="logo__wrapper">
                   <div class="d-flex justify-content-center align-items-center logo__image">
-                     <img src="./img/navLogo.svg" style="padding-top: 65px;" alt="" />
+                     <img src="../img/navLogo.svg" style="padding-top: 65px;" alt="" />
                   </div>
                </div>
       
                <ul class="sidenav_links">
-                  <li><a class="links" href="#" >Dashboard</a></li>
-                  <li><a class="links" href="#">Verification</a></li>
-                  <li><a class="links " href="#">Employers</a></li>
-                  <li><a class="links active" href="#">Employees</a></li>
-                  <li><a class="links" href="#">Messages</a></li>
-                  <li><a class="links" href="#">Support</a></li>
-                  <li><a class="links" href="#">FAQs</a></li>
-                  <li><a class="links" href="#">Settings</a></li>
-               </ul>
-            </div>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a class="links active" href="#">Employers</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Settings</a></li>
+              </ul>
+            </div>     ​
+            <div id="body__click"></div>
            
           </div>
-          <div class="col-md-10 col-sm-10 panel-remove">
+          <div class=" col-lg-9 col-md-10 col-sm-10 panel-remove">
             <!-- Website Overview --> <br><br>
             <h2>Employees</h2><br>
             <div class="panel panel-default panel-remove ">
               <div class="panel-body panel-body-change ">
-                <div class="col-md-4 white">
+                <div class="col-md-12 col-lg-12 col-xl-4 col-sm-12 white">
                   <div class="well dash-box">
                     <h2><span  aria-hidden="true"></span> 15,000</h2>
                     <h4>EMPLOYEES</h4>
                   </div>
                 </div>
-                <div class="col-md-4 white">
+                <div class="col-md-12 col-lg-12 col-xl-4 col-sm-12 white">
                   <div class="well dash-box">
                     <h2><span aria-hidden="true"></span> 7,000</h2>
                     <h4>HIRED</h4>
                   </div>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-12 col-lg-12 col-xl-4 col-sm-12 white">
                   <div class="well dash-box">
                     <h2><span aria-hidden="true"></span> 5,000</h2>
                     <h4>AVAILABLE</h4>
@@ -114,7 +114,7 @@
                 <div class="panel-heading dash-blue">
                   <input class="panel-text" type="text" name="" id="" placeholder="Search Employer"><i class="fa fa-search search"></i>
                 </div>
-                <div class="panel-heading">
+                <div class="panel-heading panel-change">
                  <h3>Employers
                    <select class="select" name="" id="">Available For: &nbsp; All
                      <option value="">Available For: <b>All</b> </option>
@@ -125,41 +125,41 @@
                 <div class="panel-body panel-small">
                   
                   <table class="table table-hover">
-                      <thead>
+                      <thead class="title-head">
                         <th class="table-font">EMPLOYEES NAME &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
                         <th class="table-font">AVAILABLE FOR &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
                         <th class="table-font">TRACK &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
                         <th class="table-font">DATE ADDED &nbsp;&nbsp;<i class="fa fa-sort"></i></th>
                       </tr>
-                      <thead>
+                    </thead>
                          <td class="table-font">SoftCom Limited</th>
                          <td class="table-font">Full Time</td>
                          <td class="table-font">Front End</td>
-                         <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-exclamation-circle text-primary"></i></td>
+                         <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-ellipsis-v info"></i></td>
                       </tr>
                       <tr>
                         <td class="table-font">Guaranty Trust Bank</th>
                         <td class="table-font">Part Time</td>
                         <td class="table-font">Design</td>
-                        <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-exclamation-circle text-primary"></i></td>
+                        <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-ellipsis-v info"></i></td>
                       </tr>
                       <tr>
                          <td class="table-font">InterSwitch Group</th>
                          <td class="table-font">Remote</td>
                          <td class="table-font">Back End</td>
-                         <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-exclamation-circle text-primary"></i></td>
+                         <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-ellipsis-v info"></i></td>
                       </tr>
                       <tr>
                          <td class="table-font">SoftCom Limited</th>
                           <td class="table-font">Full Time</td>
                           <td class="table-font">Front End</td>
-                          <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-exclamation-circle text-primary"></i></td>
+                          <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-ellipsis-v info"></i></td>
                       </tr>
                       <tr>
                          <td class="table-font">Guaranty Trust Bank</th>
                           <td class="table-font">Part Time</td>
                           <td class="table-font">Design</td>
-                          <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-exclamation-circle text-primary"></i></td>
+                          <td class="table-font">Feb 12,2018 &nbsp;&nbsp; <i class="fa fa-ellipsis-v info"></i></td>
                       </tr>
                     </table>
                 </div>
@@ -176,10 +176,10 @@
     <script src="../js/custom-js/side-nav.js"></script>
     <script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap-js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
   </body>
 </html>
